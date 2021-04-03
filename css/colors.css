@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #182162;
+  --secondary-color: #621821;
+  --third-color: #216218;
+  --background-color: lightgray;
+  --text-color: #623418;
+  --code-background: #e2e3eb;
+  --code-foreground: #186234;
+  --note-background: gray;
+  --page-background: papayawhip;
+}

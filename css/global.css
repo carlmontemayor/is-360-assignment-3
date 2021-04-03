@@ -1,0 +1,133 @@
+footer {
+  background-color: var(--background-color);
+  padding-left: -40px;
+  padding-right: -40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.verticalRule {
+  margin-left: 50px;
+  border-left: 2px solid black;
+  height: 100px;
+  justify-content: space-around;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+ul.breadcrumb a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+h1::first-letter {
+  font-size: 60px;
+}
+
+h2::first-letter {
+  font-size: 50px;
+}
+
+h3::first-letter {
+  font-size: 30px;
+}
+
+.logoContainer {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 0 0 5px var(--text-color);
+  letter-spacing: 2px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navigation {
+  text-align: center;
+  border: 1px solid black;
+  background-color: var(--primary-color);
+  color: rgb(77, 74, 74);
+}
+
+.navigation a {
+  color: white;
+}
+
+body {
+  background-color: var(--page-background);
+}
+
+pre {
+  font-family: "Courier New", Courier, monospace;
+  color: var(--code-foreground);
+  background-color: var(--code-background);
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+h3 {
+  color: var(--third-color);
+}
+
+strong {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.note {
+  background-color: var(--note-background);
+}
+.note.span {
+  color: black;
+}
+
+.currentSelection {
+  background-color: var(--third-color);
+}
+
+a {
+  color: var(--third-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightseagreen;
+}
+
+ol {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}

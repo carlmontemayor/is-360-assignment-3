@@ -1,0 +1,40 @@
+.bar {
+  display: block;
+  color: var(--code-background);
+  border-radius: 0px 20px 20px 0px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.first-bar {
+  background-color: var(--primary-color);
+}
+
+.second-bar {
+  background-color: var(--secondary-color);
+}
+
+.third-bar {
+  background-color: var(--third-color);
+}
+
+table th {
+  border: 2px solid green;
+}
+
+table thead {
+  margin: 4px;
+  padding: 6px;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+}
+
+table tr td {
+  border: 1px solid gray;
+}
+
+tr:nth-child(even) {
+  background-color: var(--code-background);
+}
